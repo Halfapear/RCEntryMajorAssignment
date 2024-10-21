@@ -1,0 +1,12 @@
+../Core/Src/main.c:71:1:__io_putchar	1
+../Core/Src/main.c:93:6:HAL_TIM_IC_CaptureCallback	4
+../Core/Src/main.c:111:6:Process_UART_Data	9
+../Core/Src/main.c:204:6:Send_Measurement_Message	2
+../Core/Src/main.c:258:5:main	1
+../Core/Src/main.c:318:6:SystemClock_Config	3
+../Core/Src/main.c:365:13:MX_TIM2_Init	8
+../Core/Src/main.c:439:13:MX_TIM5_Init	6
+../Core/Src/main.c:498:13:MX_USART1_UART_Init	2
+../Core/Src/main.c:529:13:MX_DMA_Init	1
+../Core/Src/main.c:550:13:MX_GPIO_Init	1
+../Core/Src/main.c:570:6:Error_Handler	1
