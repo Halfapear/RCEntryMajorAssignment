@@ -1,0 +1,63 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/environ/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      The target system is: Generic - 1 - 
+      The host system is: Windows - 10.0.26120 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/environ/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/environ/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/environ/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/environ/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/environ/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/environ/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/environ/arm-gnu-toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        D:/D盘桌面/RCEntryMajorAssignment/Vol/1 UARTtest/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o
+      
